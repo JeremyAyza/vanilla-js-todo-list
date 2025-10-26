@@ -1,11 +1,11 @@
-<h1 align="center">📝 Vanilla JS Todo List</h1>
-<p align="center">A clean and intuitive task manager built with pure JavaScript, featuring localStorage persistence and dynamic DOM manipulation.</p>
+<h1 align="center">📝 Todo App - Vanilla JavaScript</h1>
+<p align="center">Una aplicación de gestión de tareas limpia e intuitiva construida con JavaScript puro, con persistencia en localStorage y manipulación dinámica del DOM.</p>
 
 <p align="center">
-  <a href="#-features">✨ Features</a> •
-  <a href="#-tech-stack">📦 Tech Stack</a> •
-  <a href="#-installation">⚙️ Installation</a> •
-  <a href="#-learnings">🎯 Learnings</a>
+  <a href="#-características">✨ Características</a> •
+  <a href="#-tecnologías">📦 Tecnologías</a> •
+  <a href="#-instalación">⚙️ Instalación</a> •
+  <a href="#-aprendizajes">🎯 Aprendizajes</a>
 </p>
 
 ---
@@ -14,137 +14,141 @@
 
 ![Todo App Screenshot]📋
 
-> **Live Demo:** [Add your deployment link here] • **Repository:** [GitHub Link]
+> **Demo en Vivo:** [Agrega tu enlace de despliegue aquí] • **Repositorio:** [GitHub](https://github.com/JeremyAyza/vanilla-js-todo-list)
 
 ---
 
-## ✨ Features
+## ✨ Características
 
-- ➕ **Add Tasks**: Create new todos with a simple form and Enter key
-- ✅ **Toggle Completion**: Mark tasks as done/undone with interactive checkboxes
-- 🗑️ **Delete Tasks**: Remove individual tasks with trash icon
-- 💾 **Data Persistence**: All tasks saved automatically using localStorage
-- 🎨 **Clean UI**: Modern design with pure CSS (no external dependencies)
-- 📱 **Responsive**: Works seamlessly on desktop and mobile devices
-- ⚡ **Performance**: Optimized with efficient DOM updates and event delegation
-- 🔔 **Notifications**: Toast messages for user feedback
-- 📊 **Statistics**: Real-time task count and completion tracking
+- ➕ **Agregar Tareas**: Crea nuevas tareas con un formulario simple y la tecla Enter
+- ✅ **Alternar Completado**: Marca tareas como hechas/pendientes con checkboxes interactivos
+- 🗑️ **Eliminar Tareas**: Remueve tareas individuales con el ícono de basura
+- 💾 **Persistencia de Datos**: Todas las tareas se guardan automáticamente usando localStorage
+- 🎨 **UI Limpia**: Diseño moderno con CSS puro (sin dependencias externas)
+- 📱 **Responsive**: Funciona perfectamente en escritorio y dispositivos móviles
+- ⚡ **Rendimiento**: Optimizado con actualizaciones eficientes del DOM y delegación de eventos
+- 🔔 **Notificaciones**: Mensajes toast para retroalimentación del usuario
+- 📊 **Estadísticas**: Conteo en tiempo real de tareas y seguimiento de completado
 
 ---
 
-## 📦 Tech Stack
+## 📦 Tecnologías
 
-| Technology | Description |
+| Tecnología | Descripción |
 |------------|-------------|
-| ![HTML5](https://img.shields.io/badge/HTML5-Structure-orange?logo=html5) | Semantic markup and document structure |
-| ![CSS3](https://img.shields.io/badge/CSS3-Styling-blue?logo=css3) | Custom responsive styles and animations |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript) | Pure vanilla JS (no frameworks) |
-| ![localStorage](https://img.shields.io/badge/localStorage-Persistence-lightgrey) | Browser-based data persistence |
-| ![CSS Icons](https://img.shields.io/badge/CSS_Icons-Pure_CSS-green) | Custom CSS-only icons and animations |
+| ![HTML5](https://img.shields.io/badge/HTML5-Estructura-orange?logo=html5) | Marcado semántico y estructura del documento |
+| ![CSS3](https://img.shields.io/badge/CSS3-Estilos-blue?logo=css3) | Estilos responsivos personalizados y animaciones |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript) | JavaScript puro vanilla (sin frameworks) |
+| ![localStorage](https://img.shields.io/badge/localStorage-Persistencia-lightgrey) | Persistencia de datos basada en el navegador |
+| ![CSS Icons](https://img.shields.io/badge/Íconos_CSS-CSS_Puro-green) | Íconos y animaciones personalizadas solo con CSS |
 
 ---
 
-## 🎯 Learnings & Challenges
+## 🎯 Aprendizajes y Desafíos
 
-- [x] **DOM Manipulation**: Mastered vanilla JavaScript DOM operations without frameworks
-- [x] **Event Delegation**: Implemented efficient event handling for dynamic content
-- [x] **State Management**: Built custom state management using arrays and localStorage
-- [x] **Data Persistence**: Learned browser storage APIs for offline functionality
-- [x] **Responsive Design**: Created mobile-first CSS with media queries
-- [x] **Performance Optimization**: Used efficient rendering strategies to update only necessary DOM elements
+- [x] **Manipulación del DOM**: Dominé las operaciones del DOM con JavaScript vanilla sin frameworks
+- [x] **Delegación de Eventos**: Implementé manejo eficiente de eventos para contenido dinámico
+- [x] **Gestión de Estado**: Construí gestión de estado personalizada usando arrays y localStorage
+- [x] **Persistencia de Datos**: Aprendí APIs de almacenamiento del navegador para funcionalidad offline
+- [x] **Diseño Responsive**: Creé CSS mobile-first con media queries
+- [x] **Optimización de Rendimiento**: Usé estrategias de renderizado eficientes para actualizar solo elementos necesarios del DOM
+- [x] **Arquitectura de Clases**: Implementé patrones de programación orientada a objetos con ES6
+- [x] **Manejo de Errores**: Agregué validaciones y manejo robusto de errores
 
 ---
 
-## ⚙️ Installation
+## ⚙️ Instalación
 
-### Prerequisites
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- No additional dependencies required!
+### Prerrequisitos
+- Un navegador web moderno (Chrome, Firefox, Safari, Edge)
+- ¡No se requieren dependencias adicionales!
 
-### Quick Start
+### Inicio Rápido
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/vanilla-js-todo-list
+# Clona el repositorio
+git clone https://github.com/JeremyAyza/vanilla-js-todo-list
 
-# Navigate to the project directory
+# Navega al directorio del proyecto
 cd vanilla-js-todo-list
 
-# Open the HTML file in your browser
+# Abre el archivo HTML en tu navegador
 open index.html
-# or simply double-click index.html
+# o simplemente haz doble clic en index.html
 ```
 
-### Alternative: Live Server
-If you have VS Code with Live Server extension:
+### Alternativa: Live Server
+Si tienes VS Code con la extensión Live Server:
 ```bash
-# Right-click on index.html → "Open with Live Server"
+# Clic derecho en index.html → "Open with Live Server"
 ```
 
 ---
 
-## 🚀 Usage
+## 🚀 Uso
 
-1. **Adding Tasks**: Type your task in the input field and press Enter
-2. **Completing Tasks**: Click the circular checkbox next to any task
-3. **Deleting Tasks**: Click the trash icon to remove unwanted tasks
-4. **Data Persistence**: Your tasks are automatically saved and will persist between browser sessions
+1. **Agregar Tareas**: Escribe tu tarea en el campo de entrada y presiona Enter
+2. **Completar Tareas**: Haz clic en el checkbox circular junto a cualquier tarea
+3. **Eliminar Tareas**: Haz clic en el ícono de basura para remover tareas no deseadas
+4. **Persistencia de Datos**: Tus tareas se guardan automáticamente y persistirán entre sesiones del navegador
 
 ---
 
-## 🔧 Project Structure
+## 🔧 Estructura del Proyecto
 
 ```
 vanilla-js-todo-list/
-├── index.html             # Main HTML file
+├── index.html             # Archivo HTML principal
 ├── css/
-│   └── styles.css         # Optimized CSS styles
+│   └── styles.css         # Estilos CSS optimizados
 ├── js/
-│   └── app.js             # JavaScript application logic
+│   └── app.js             # Lógica de la aplicación JavaScript
 ├── assets/
 │   └── images/
-│       └── favicon.png    # App icon
-└── README.md              # Project documentation
+│       └── favicon.png    # Ícono de la aplicación
+└── README.md              # Documentación del proyecto
 ```
 
 ---
 
-## 🎨 Design Features
+## 🎨 Características del Diseño
 
-- **Modern Card Layout**: Clean white card on colored background
-- **Interactive Elements**: Hover effects and smooth transitions
-- **Typography**: Custom Google Fonts for better readability
-- **Color Scheme**: Professional turquoise and yellow accent colors
-- **Responsive Grid**: Adapts to different screen sizes
-
----
-
-## 🔮 Future Enhancements
-
-- [ ] Add task categories or tags
-- [ ] Implement task editing functionality
-- [ ] Add due dates and reminders
-- [ ] Create task filtering (all, completed, pending)
-- [ ] Add dark mode toggle
-- [ ] Implement drag-and-drop reordering
-- [ ] Add task search functionality
+- **Diseño de Tarjeta Moderno**: Tarjeta blanca limpia sobre fondo con gradiente
+- **Elementos Interactivos**: Efectos hover y transiciones suaves
+- **Tipografía**: Fuentes del sistema para mejor rendimiento
+- **Esquema de Colores**: Colores turquesa profesionales y acentos amarillos
+- **Grid Responsive**: Se adapta a diferentes tamaños de pantalla
+- **Animaciones CSS**: Transiciones fluidas para una mejor experiencia de usuario
 
 ---
 
-## 📄 License
+## 🔮 Mejoras Futuras
 
-This project is open source and available under the [MIT License](LICENSE).
+- [ ] Agregar categorías o etiquetas para las tareas
+- [ ] Implementar funcionalidad de edición de tareas
+- [ ] Agregar fechas de vencimiento y recordatorios
+- [ ] Crear filtros de tareas (todas, completadas, pendientes)
+- [ ] Implementar toggle de modo oscuro
+- [ ] Agregar funcionalidad de arrastrar y soltar para reordenar
+- [ ] Implementar búsqueda de tareas
+- [ ] Agregar exportación/importación de datos
 
 ---
 
-## 👨‍💻 Author
+## 📄 Licencia
 
-**Jeremy** - *Frontend Developer*
-- GitHub: [@your-username](https://github.com/your-username)
-- Portfolio: [your-portfolio.com](https://your-portfolio.com)
+Este proyecto es de código abierto y está disponible bajo la [Licencia MIT](LICENSE).
+
+---
+
+## 👨‍💻 Autor
+
+**Jeremy Ayza** - *Desarrollador Frontend*
+- GitHub: [@JeremyAyza](https://github.com/JeremyAyza)
+- Portfolio: [Tu portfolio aquí](https://tu-portfolio.com)
 
 ---
 
 <p align="center">
-  <i>Built with ❤️ using Vanilla JavaScript</i>
+  <i>Construido con ❤️ usando Vanilla JavaScript</i>
 </p>
