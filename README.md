@@ -12,7 +12,7 @@
 
 ## 📸 Demo
 
-![Todo App Screenshot]📋
+![Todo App Screenshot](assets/images/todo-js.png)
 
 > **Demo en Vivo:** [Agrega tu enlace de despliegue aquí] • **Repositorio:** [GitHub](https://github.com/JeremyAyza/vanilla-js-todo-list)
 
