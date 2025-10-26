@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App - Vanilla JS</title>
+    <link rel="icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <header class="app-header">
+                <h1 class="app-title">📝 Todo List</h1>
+                <div class="app-subtitle">Stay organized, stay productive</div>
+            </header>
+
+            <form class="todo-form" id="todoForm">
+                <input 
+                    type="text" 
+                    class="todo-input" 
+                    placeholder="What needs to be done?" 
+                    id="todoInput"
+                    maxlength="100"
+                    required
+                >
+                <button type="submit" class="add-btn">Add</button>
+            </form>
+
+            <div class="todo-stats" id="todoStats">
+                <span class="total-todos">Total: <span id="totalCount">0</span></span>
+                <span class="completed-todos">Completed: <span id="completedCount">0</span></span>
+            </div>
+
+            <ul class="todo-list" id="todoList">
+                <!-- Todos will be dynamically inserted here -->
+            </ul>
+
+            <div class="empty-state" id="emptyState">
+                <div class="empty-icon">📋</div>
+                <p>No tasks yet. Add one above to get started!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
